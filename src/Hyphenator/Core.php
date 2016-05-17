@@ -340,9 +340,9 @@ class Core
 
     private function _hyphenateWordWrapper($word)
     {
-        if (!$hypenated = $this->wordCache->fetch(mb_strtolower($word))) {
+        if (!$hypenated = $this->wordCache->fetch($word)) {
             $hypenated = $this->_hyphenateWord($word);
-            $this->wordCache->store(mb_strtolower($word), $hypenated);
+            $this->wordCache->store($word, $hypenated);
         }
 
         return $hypenated;

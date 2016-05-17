@@ -6,7 +6,7 @@ Hyphenator is an object-oriented and cache-enabled port of phpHyphenator(http://
 Installation
 ------------
 
-Just add `webrocker/hyphenator` to Your `composer.json` and run `composer.phar update` to add Hyphenator to Your project.
+Just add `typearea/hyphenator` to Your `composer.json` and run `composer.phar update` to add Hyphenator to Your project.
 
 Usage
 -----
