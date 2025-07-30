@@ -105,7 +105,7 @@ class Core
      * @param null $patternsPath
      * @param Cache\CacheInterface $cache
      */
-    public function __construct($patternsPath = null, CacheInterface $cache = null)
+    public function __construct($patternsPath = null, ?CacheInterface $cache = null)
     {
         if ($patternsPath) {
             $this->patternsPath = realpath($patternsPath);

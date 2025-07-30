@@ -38,7 +38,7 @@ class MemcachedCache implements CacheInterface
      */
     protected $connection = null;
 
-    public function __construct(\Memcache $connection = null)
+    public function __construct(?\Memcache $connection = null)
     {
         if (!extension_loaded('memcache')) {
             throw new MissingExtensionException('PHP extension memcache ist not loaded. You cannot use this cache.');
