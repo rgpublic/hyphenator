@@ -1,5 +1,5 @@
 {
-    "name":"typearea/hyphenator",
+    "name":"pw6/hyphenator",
     "type":"library",
     "description":"Hyphenator is a cache-enabled PHP port of the JavaScript Hyphenator.js by Mathias Nater, and this is a bugfix fork of github.com/webrocker/hyphenator",
     "keywords":["hyphenator", "hyphenation", "hyphenate"],
