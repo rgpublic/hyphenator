@@ -4,7 +4,7 @@
     "description":"Hyphenator is a cache-enabled PHP port of the JavaScript Hyphenator.js by Mathias Nater, and this is a bugfix fork of github.com/webrocker/hyphenator",
     "keywords":["hyphenator", "hyphenation", "hyphenate"],
     "homepage":"https://github.com/typearea/hyphenator",
-    "license":"New BSD",
+    "license":"BSD-3-Clause",
     "authors":[
         {
             "name":"Marco Fischer",
